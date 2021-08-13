@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Как поймать льва в пустыне?</title>
+</head>
+<body>
+<header>`
+    <div class="header-logo">
+        <a href="/"><img src="../img/logo.png" alt="Как поймать льва в пустыне"></a>
+    </div>
+    <div class="header-bg"></div>
+</header>
+
+<!--==================================================================-->
+
+<div class="main-content">
+    <div class="container">
+
+        <div class="wrapper">
+            <div class="left-column">
+
+                <h1><img src="../img/dichotomy/dichotomy-title.png" alt="Метод случайных чисел"></h1>
+                <p>
+                    Ловля льва методом дихотомии основана на последовательном делении пустыни на две части. Вначале
+                    разбиваем пустыню пополам, как показано на рис. 1, после чего отбрасываем ту часть пустыни, где льва
+                    нет (на иллюстрации она помечена темным цветом).
+                </p>
+                <section>
+                    <div class="dichotomy">
+                        <img src="../img/dichotomy/img-1.png" alt="Первый этап метода дихотомии">
+                        <p class="em"><em>Рис. 1. Разбиение пустыни на N элементарных прямоугольников</em></p>
+                        <p>На следующем шаге оставшуюся часть снова делим пополам, но уже горизонтально, при этом
+                            отбрасывая часть пустыни, где льва нет (рис. 2).</p>
+
+                        <img src="../img/dichotomy/img-2.png" alt="Второй этап метода дихотомии">
+                        <p class="em"><em>Рис. 2. Второй этап метода дихотомии</em></p>
+                        <p>
+                            Последовательное деление пустыни по вертикали и горизонтали продолжается до тех пор, пока
+                            оставшаяся часть по размерам не будет сопоставима с размерами клетки. Остается только
+                            накрыть полученный участок клеткой и лев окажется пойман
+                        </p>
+                        <p>На рис. 3 показаны итерации ловли льва методом дихотомии.</p>
+
+                        <img src="../img/dichotomy/img-3.png" alt="Количество итераций">
+                        <p class="em"><em>Рис. 3. Количество итераций</em></p>
+                    </div> <!-- dichotomy -->
+                </section>
+
+            </div> <!-- left-column -->
+
+            <div class="right-column">
+                <nav class="sidebar">
+                    <ul>
+                        <li><a href="../pages/assumptions.html">Допущения</a></li>
+                        <li><a href="../pages/iterationMethod.html">Метод простых итераций</a></li>
+                        <li><a href="../pages/randomMethod.html">Метод случайных чисел</a></li>
+                        <li class="active"><a href="../pages/dichotomy.html">Метод дихотомии</a></li>
+                        <li><a href="../pages/golden.html">Метод золотого сечения</a></li>
+                    </ul>
+                </nav>
+                <div class="info">
+                    <img src="../img/info-title.png" alt="Информация">
+                    <p>Средний самец льва имеет длину около трех метров и весит от 180 до 230 килограмм.</p>
+                    <p>Львы питаются не только убитыми животными, они также не брезгуют падалью.</p>
+                </div>
+
+            </div> <!-- right-column -->
+        </div>  <!-- wrapper -->
+
+
+    </div>    <!--    <div class="container"></div>-->
+</div>      <!--<div class="main"></div>-->
+
+<!--======================================================================-->
+
+<footer class="footer">
+    <div class="top-line">
+        <div class="footer-container"><img src="../img/lion.png" alt="Лев"></div>
+    </div>
+    <div class="info">
+        <p><strong>Учебный сайт «Как поймать льва в пустыне»</strong></p>
+        <p>&copy; Шпак Дмитрий</p>
+    </div>
+</footer>
+</body>
+</html>
